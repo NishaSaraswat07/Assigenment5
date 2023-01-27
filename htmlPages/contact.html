@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <script src="../js/jquery-3.6.3.min.js"></script>
+    <script src="../js/index.js" defer></script>
+    <script src="https://kit.fontawesome.com/d62653018f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <div class="menu .fa-times">
+                <a href="../index.html" class="home">
+                    <i class="fa-solid fa-house"></i>Home
+                </a>
+                <a href="../htmlPages/profile.html" class="profileLink">
+                    <i class="fa-solid fa-circle-user"></i>Profile
+                </a>
+                <a href="../htmlPages/skills.html" class="skillsLink">
+                    <i class="fa-solid fa-laptop-code"></i>Skills
+                </a>
+                <a href="../htmlPages/project.html" class="projectLink">
+                    <i class="fab fa-buffer works"></i>Projects
+                </a>
+                <a href="../htmlPages/contact.html" class="contactLink">
+                    <i class="fa-solid fa-envelope"></i>Contact
+                </a>
+            </div>
+        </nav>
+        <div class="fas fa-bars"></div>
+    </header>
+    <div class="form-container">
+        <h1>Contact</h1>
+        <p class="subtitle">Write to me and I will get back to you!</p>
+        <form target="_blank" action="mailto:someone@funfacts.com" method="post" enctype="text/plain">
+            <label class="required" for="email">Email</label>
+            <input type="text" name="email" placeholder="email" required="true">
+            <lable class="required" for="message">Message</lable>
+            <textarea type="text" name="message" value="Message" placeholder="Write to me...."
+                required="true"></textarea>
+            <input type="submit" value="Send">
+        </form>
+    </div>
+    <section id="footer">
+        <div class="icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <h3>&copy; copyright @ 2023 by <span>Nisha</span></h3>
+    </section>
+</body>
+</html>

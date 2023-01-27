@@ -1,0 +1,34 @@
+.content h1 {
+    font-size: 2.5rem;
+    font-weight:300;
+    color: var(--text-color);
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .image2 img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+    background-color: #CCC9E7;
+    padding: 6px;
+
+  }
+  .content{
+      background-color: var(--main-bg-color);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+  }
+  .aboutText{
+      color:var(--text-color);
+      text-align:center;
+      padding: 10px 30px;
+      font-size: 1.2rem;
+      font-weight: 200;
+      line-height: 2.5rem;
+      letter-spacing: 0.1rem;
+      text-indent: 30px;
+  }

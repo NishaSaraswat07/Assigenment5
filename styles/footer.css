@@ -1,0 +1,31 @@
+#footer {
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    background:var(--btn-hover-bg-color);
+  }
+  
+  #footer .icons {
+    margin: 1rem 0;
+  }
+  
+  #footer .icons a {
+    text-decoration: none;
+    font-size: 2rem;
+    margin: 0 1rem;
+    color: var(--text-color);
+  }
+  
+  #footer .icons a:hover {
+    color: var(--hover-bg-color);
+  }
+  
+  #footer h3 {
+    margin: 1rem 0;
+    font-size: 1rem;
+    color: var(--text-color);
+  }
+  
+  #footer h3 span {
+    color: gold;
+  }

@@ -1,0 +1,47 @@
+#home .image img {
+    width: 30vw;
+  }
+  
+  #home .content h1 {
+    font-size: 2rem;
+    font-weight: normal;
+    color: var(--text-color);
+  }
+  
+  #home .content h1 span {
+    color: var(--h1-color);
+    font-family: 'Lobster', sans-serif;
+  }
+  
+  #home .content button {
+    outline: none;
+    border: none;
+    background: var(--hover-bg-color);
+    color: var(--text-color);
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 1rem 0;
+    height: 2.2rem;
+    width: 12rem;
+  }
+  
+  #home .content button:hover {
+    background: var(--btn-hover-bg-color);
+  }
+  
+  #home .content .icons {
+    margin: 1rem 0;
+  }
+  
+  #home .content .icons a {
+    text-decoration: none;
+    font-size: 2rem;
+    margin: 0 1rem;
+    color: var(--text-color);
+  }
+  
+  #home .content .icons a:hover {
+    color: var(--hover-bg-color);
+  }

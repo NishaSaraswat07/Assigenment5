@@ -1,0 +1,79 @@
+#skill {
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    min-height: 100vh;
+    background:var(--main-bg-color);
+  }
+  
+  #skill h1 {
+    font-size: 4rem;
+    margin-top: -70px;
+    color: var(--text-color);
+    position: relative;
+  }
+  
+  #skill .wrapper {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: space-around;
+        width: 90%;
+  }
+  
+  #skill .wrapper .image {
+    width: 35vw;
+  }
+  
+  #skill .wrapper .image p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+  }
+  
+  #skill .wrapper .image img {
+    width: 30vw;
+    border-radius: 100%;
+  }
+  
+  #skill .progress {
+    width: 45vw;
+    margin-left:40px;
+    margin-top: 30px;
+  }
+  
+  #skill .progress h3 {
+    font-size: 1.5rem;
+    color: var(--hover-bg-color);
+  }
+  
+  #skill .progress .line {
+    height: 0.6rem;
+    width: 90%;
+    background: var(--text-color);
+    margin: 1.5rem 0;
+    border-radius: 10px;
+  }
+  
+  #skill .progress .line .fill {
+    height: 100%;
+    width: 100%;
+    background: var(--btn-hover-bg-color);
+    display: block;
+  }
+  
+  #skill .progress .line1 .fill {
+    width: 95%;
+  }
+  
+  #skill .progress .line2 .fill {
+    width: 85%;
+  }
+  
+  #skill .progress .line3 .fill {
+    width: 65%;
+  }
+  
+  #skill .progress .line4 .fill {
+    width: 85%;
+  }
+  

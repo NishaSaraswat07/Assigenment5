@@ -1,0 +1,43 @@
+:root{
+    --main-bg-color:#9B908E;
+    --hover-bg-color: #766A69;
+    --text-color:  #E5E5E5;
+    --btn-hover-bg-color: #333;
+    --h1-color:#fff:
+  }
+html {
+    height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+.comanLayout {
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    padding: 0 6rem;
+    background:var(--main-bg-color);
+  }
+
+.title {
+    color: #004B87;
+    display: inline-block;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    margin-top: 30px;
+    text-align: center;
+}
