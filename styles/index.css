@@ -32,12 +32,3 @@ body {
     padding: 0 6rem;
     background:var(--main-bg-color);
   }
-
-.title {
-    color: #004B87;
-    display: inline-block;
-    font-size: 1rem;
-    letter-spacing: 0.5px;
-    margin-top: 30px;
-    text-align: center;
-}

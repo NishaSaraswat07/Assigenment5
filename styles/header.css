@@ -49,6 +49,20 @@ header .fa-bars {
       font-size: 1.2rem;
       margin-right: 5px;
   }
+  .sub-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 190px;
+    position: absolute;
+    margin-left: 370px;
+}
+.sub-menu a{
+    font-size: 1.2rem;
+}
+.active{
+    display: none;
+}
 
 /* Media Query */
 @media screen and (max-width: 991px) {
@@ -82,5 +96,18 @@ header .fa-bars {
     }
     .fas{
         margin: 30px;
+    }
+    .opensub-menu{
+        display: flex;
+        flex-direction: column;
+        right: 0;
+        margin-right: 90px;
+        margin-top: -30px;
+        width: 200px;
+        background: var(--hover-bg-color);
+    }
+    .opensub-menu a:hover{
+        background-color: var(--main-bg-color);
+       
     }
     }

@@ -1,5 +1,5 @@
 $(function() {
     $("#slider").QCslider({
-        duration: 6000
+        duration: 5000
       });
   });
