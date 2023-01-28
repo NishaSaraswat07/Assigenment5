@@ -62,12 +62,25 @@ header .fa-bars {
     .menu{
         display: none;
     }
-    .openmenu{
+    .navigation{
         display: flex;
-        align-items: center;
         flex-direction: column;
-        position: absolute;
-        margin-top: 20px;
-        margin-left: 340px;
+        width: 100vh;
+        height: 260px;
+        position: relative;
+    }
+    .openmenu{
+        width: fit-content;
+        height: fit-content;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        right: 0%;
+        margin: 100px 20px;
+        position:fixed;
+    }
+    .fas{
+        margin: 30px;
     }
     }

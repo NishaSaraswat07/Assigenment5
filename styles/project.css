@@ -1,5 +1,49 @@
 .slide{
     max-width: 800px;
-    height: 600px;
-    margin-left: 260px;
+    height: auto;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    background: var(--main-bg-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+.slider-container{
+    width: 100%;
+    background: var(--main-bg-color);
+    padding: 20px 0;
+}
+ul li {
+    list-style: none;
+}
+.content h1{
+    color: var(--text-color);
+    font-size: 2.5rem;
+    margin: 20px 0;
+}
+
+.capa p{
+    font-size: 1.2rem;
+    color:#fff;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 10px;
+    background: #DE6E4B;
+    display: inline-block;
+    border-radius: 10px;
+    padding:4px;
+}
+.capa a{
+    text-decoration: none;
+    background: var(--btn-hover-bg-color);
+    border-radius: 10px;
+    padding: 4px;
+    color: #fff;
+}
+.capa a:hover{
+    background: #EDFF86;
+    color: black;
 }
