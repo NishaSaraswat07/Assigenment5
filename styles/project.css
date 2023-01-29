@@ -46,7 +46,8 @@ ul li {
     border-radius: 10px;
     padding: 4px;
     color: #fff;
-    margin-left: 20px;
+    margin: 50px;
+    position: relative;
 }
 .capa a:hover{
     background: #EDFF86;
