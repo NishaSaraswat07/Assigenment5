@@ -68,6 +68,7 @@ header .fa-bars {
 @media screen and (max-width: 991px) {
     header .fa-bars {
         display: block;
+        margin-bottom: 60px;
       }
     .menu a {
         font-size: 1rem;
@@ -90,8 +91,8 @@ header .fa-bars {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin-top:65px;
         right: 0%;
-        margin: 100px 20px;
         position:fixed;
     }
     .fas{
@@ -110,4 +111,8 @@ header .fa-bars {
         background-color: var(--main-bg-color);
        
     }
+    header{
+        margin-top: -80px;
     }
+}
+    

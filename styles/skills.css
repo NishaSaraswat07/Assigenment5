@@ -3,14 +3,14 @@
     place-items: center;
     width: 100vw;
     min-height: 100vh;
+    margin-top: -10px;
     background:var(--main-bg-color);
   }
   
   #skill h1 {
     font-size: 4rem;
-    margin-top: -70px;
+    margin-top: -100px;
     color: var(--text-color);
-    position: relative;
   }
   
   #skill .wrapper {
@@ -28,6 +28,7 @@
   #skill .wrapper .image p {
     font-size: 1.2rem;
     margin: 1rem 0;
+    color: var(--text-color);
   }
   
   #skill .wrapper .image img {
@@ -76,4 +77,5 @@
   #skill .progress .line4 .fill {
     width: 85%;
   }
+  
   
