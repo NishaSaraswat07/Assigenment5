@@ -21,8 +21,6 @@ ul li {
     list-style: none;
 }
 .content h1{
-    color: var(--text-color);
-    font-size: 2.5rem;
     margin: 20px 0;
 }
 .capa{

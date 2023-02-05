@@ -12,10 +12,10 @@ html {
 * {
     box-sizing: border-box;
     margin: 0;
-    font-family: 'Nunito', sans-serif;
 }
 
 body {
+    font-family: 'sansLight';
     height: 100%;
     margin: 0;
     display: flex;
@@ -32,3 +32,10 @@ body {
     padding: 0 6rem;
     background:var(--main-bg-color);
   }
+  h1{
+    font-size: 2.5rem;
+    font-family:'sansRegular';
+    color: var(--text-color);
+    margin: 30px;
+}
+

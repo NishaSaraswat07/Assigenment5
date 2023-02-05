@@ -1,0 +1,18 @@
+@font-face {
+    font-family: happyMonkey;
+    src: url(../fonts/happyMonkey/happymonkey.woff) format('woff'),
+         url(../fonts/happyMonkey/happymonkey.woff2) format('woff2');
+}
+@font-face {
+    font-family: sansLight;
+    font-weight: 200;
+    src: url(../fonts/sansPro/sanspro-light.woff) format('woff'),
+         url(../fonts/sansPro/sanspro-light.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: sansRegular;
+    font-weight: 400;
+    src: url(../fonts/sansPro/sanspro-regular.woff) format('woff'),
+         url(../fonts/sansPro/sanspro-regular.woff2) format('woff2');
+}

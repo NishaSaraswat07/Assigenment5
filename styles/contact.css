@@ -1,5 +1,6 @@
 .form-container {
     background: var(--main-bg-color);
+    font-family:'sansLight';
     height: auto;
     width: 100%;
     display: flex;
@@ -9,12 +10,6 @@
     flex-grow: 1;
     justify-content: center;
 }
-h1{
-    font-size: 2.5rem;
-    color: var(--text-color);
-    margin: 30px;
-}
-
 .subtitle {
     color: var(--text-color);
     font-size: 1.5rem;
@@ -46,6 +41,7 @@ input {
     border-radius: 10px;
     border-style: none;
     display: block;
+    font-family:'sansLight';
     margin-top: 7px;
     outline: none;
 }

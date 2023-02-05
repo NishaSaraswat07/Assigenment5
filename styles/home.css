@@ -10,7 +10,7 @@
   
   #home .content h1 span {
     color: var(--h1-color);
-    font-family: 'Lobster', sans-serif;
+    font-family: 'sansLight', 'sansRegular';
   }
   
   #home .content button {
